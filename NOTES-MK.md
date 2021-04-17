@@ -7,7 +7,7 @@ I am basing this app on what I've learned from the following tutorials:
 
  * [Angular Tour of Heroes](https://angular.io/tutorial)
  * [Auth0 Angular and Flask](https://auth0.com/blog/using-python-flask-and-angular-to-build-modern-apps-part-1/)
- * [Pluralsight TDD with Angular](https://auth0.com/blog/using-python-flask-and-angular-to-build-modern-apps-part-1/)
+ * [Pluralsight TDD with Angular](https://www.pluralsight.com/guides/introduction-to-angular-test-driven-development)
  * [Learning Go With Tests](https://quii.gitbook.io/learn-go-with-tests/) For the rigoourus TDD cycle
 
 ## Backend Setup
