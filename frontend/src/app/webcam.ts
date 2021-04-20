@@ -4,6 +4,7 @@ export interface Webcam {
 		name: string;
 		area: string; // Which forecast area: EH, WH etc.
 		country: string; //Scotland, England, Wales
-		url: string;
+		webpage: string;
+		imgurl: string;
 		updated: Date;
 }

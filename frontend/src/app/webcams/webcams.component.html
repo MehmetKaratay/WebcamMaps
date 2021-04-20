@@ -1,8 +1,14 @@
-<h2>{{webcam.name}}</h2>
+<h2>Web Cams</h2>
 <ul>
-  <li>{{webcam.id}}</li>
-  <li>{{webcam.name}}</li>
-  <li>{{webcam.country}}</li>
-  <li>{{webcam.url}}</li>
-  <li>{{webcam.updated}}</li>
+  <li *ngFor="let webcam of webcams">
+    <hr>
+    <ul>
+        <li>{{webcam.id}}</li>
+	<li>{{webcam.name}}</li>
+	<li>{{webcam.country}}</li>
+	<li>{{webcam.website}}</li>
+	<li>{{webcam.imgurl}}</li>
+	<li>{{webcam.updated}}</li>
+    </ul>
+  </li>
 </ul>
