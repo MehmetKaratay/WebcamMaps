@@ -5,5 +5,5 @@ export interface Webcam {
 		area: string; // Which forecast area: EH, WH etc.
 		name: string;
 		url: string;
-		lastupdated: Date;
+		updated: Date;
 }

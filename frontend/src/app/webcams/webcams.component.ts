@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Webcam } from '../webcam';
 
 @Component({
 		selector: 'app-webcams',
@@ -12,5 +13,14 @@ export class WebcamsComponent implements OnInit {
 		ngOnInit(): void {
 		}
 
-		webcam = 'Loch Morlich'
+		webcam : Webcam = {
+				id: 1,
+				country: 'Scotland',
+				area: 'Cairngorms',
+				name: 'Ptarmigan Building',
+				url: 'https://www.cairngormmountain.co.uk/wp-content/uploads/webcams/PtarmiganStation-full.jpg',
+				updated: new Date()
+		};
+
+
 }
