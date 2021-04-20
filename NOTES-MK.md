@@ -2,6 +2,11 @@
 
 This is a file for me to keep track of notes for developing the project. This could be workflows, to-dos etc.
 
+## Progress
+ Next: Provide the mock info from the back end. This will let me explore HTTP headers for last modified etc.
+ 2020-04-20: Created basic front end that has a mock of webcams info.
+ 2020-04-17: Created empty Angular project and set up Python environment.
+
 ## Based on
 I am basing this app on what I've learned from the following tutorials:
 
