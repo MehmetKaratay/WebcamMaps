@@ -11,5 +11,6 @@ export class WebcamsComponent implements OnInit {
 		
 		ngOnInit(): void {
 		}
-		
+
+		webcam = 'Loch Morlich'
 }
