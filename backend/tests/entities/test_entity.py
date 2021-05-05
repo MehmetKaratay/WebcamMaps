@@ -15,10 +15,9 @@ class Test_Entity(unittest.TestCase):
 						return config['database']['pw']
 
 				want = pwImport()
-				got = getDbPw()
+				got = dbPw
 				msgLen = 'Password has zero characters'
 				msgEql = 'Password do not match'
 				self.assertGreater(len(got), 0, msgLen)
 				self.assertEqual(got, want, msgEql)
 
-				
