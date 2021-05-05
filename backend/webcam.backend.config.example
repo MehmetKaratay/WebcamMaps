@@ -1,2 +1,7 @@
 [database]
+#Update variables as needed.
+#Password will need to be defined
+name = webcam-db
+url = localhost:5432
+user = postgres
 pw = password_goes_here

@@ -9,6 +9,8 @@ CONFIG = '/home/karatay/Repositories/weather/WebcamMaps/backend/webcam.backend.c
 config = ConfigParser()
 config.read(CONFIG)
 
-dbUrl = ''
+dbName = config['database']['name']
+dbUrl = config['database']['url']
+dbUser = config['database']['user']
 dbPw = config['database']['pw']
 
