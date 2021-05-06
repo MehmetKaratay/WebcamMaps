@@ -8,4 +8,4 @@ class Test_WebcamEntitiy(unittest.TestCase):
 				Base.metadata.create_all(engine) #generate db schema
 				session = Session() # start session
 				webcams = session.query(Webcam).all()
-				assertEqual(len(webcams),0,'There are entries and there shouldn\'t be')
+				self.assertEqual(len(webcams),0,'There are entries and there shouldn\'t be')
